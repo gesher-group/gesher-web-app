@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "routeName": "Home",
+      "path": "/"
+    },
+    {
+      "routeName": "Services",
+      "path": "services"
+    },
+    {
+      "routeName": "Teams",
+      "path": "teams"
+    },
+    {
+      "routeName": "Labs",
+      "path": "labs"
+    },
+    {
+      "routeName": "Join",
+      "path": "join"
+    },
+    {
+      "routeName": "Contact",
+      "path": "contact"
+    }
+  ]
+}
