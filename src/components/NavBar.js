@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheets/NavBar/navbar.css";
+import logo from "../img/GesherNavLogo.svg";
 import routesData from "../routes/routes-list.json";
 
 const navItems = () =>
@@ -14,7 +15,7 @@ const NavBar = () => (
     <nav className="navbar_content">
       <div className="hamburger_icon" />
       <div className="navbar_logo">
-        <a href="/">Gesher Group Logo</a>
+        <img src={logo} alt="Gesher Logo" />
       </div>
       <div className="nav_items">{navItems()}</div>
     </nav>
