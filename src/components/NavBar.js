@@ -17,7 +17,10 @@ const NavBar = () => (
       <div className="navbar_logo">
         <img src={logo} alt="Gesher Logo" />
       </div>
-      <div className="nav_items">{navItems()}</div>
+      <div className="spacer" />
+      <div className="nav_items">
+        <ul>{navItems()}</ul>
+      </div>
     </nav>
   </header>
 );

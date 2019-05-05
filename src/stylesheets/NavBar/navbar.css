@@ -1,23 +1,52 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  color: white;
-  background: #003153;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background: #003153;
 }
 
 .navbar_content {
-  height: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1.5rem;
 }
 
 .navbar_logo a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .navbar_logo img {
-  height: 70px;
-  width: 120px;
+    height: 70px;
+    width: 120px;
+}
+
+.nav_items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.spacer {
+    flex: .9;
+}
+
+.nav_items li {
+    padding: 1rem;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_items a:hover,
+.nav_items a:active {
+    color: orange;
 }
