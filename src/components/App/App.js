@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "../logo.svg";
-import NavBar from "./NavBar";
-import "../stylesheets/App/App.css";
+import NavBar from "../NavBar/NavBar.js";
+import "./App.css";
 
 const App = () => {
   return (

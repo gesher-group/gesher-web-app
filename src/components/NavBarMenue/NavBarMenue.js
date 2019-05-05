@@ -1,6 +1,6 @@
 import React from "react";
-import "../stylesheets/NavBar/navbarmenue.css";
-import routesData from "../routes/routes-list.json";
+import "./NavBarMenue.css";
+import routesData from "../../routes/routes-list.json";
 
 const navItems = () =>
   routesData.routes.map((currentRoute, currentIndex) => (

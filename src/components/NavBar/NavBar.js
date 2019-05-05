@@ -1,7 +1,7 @@
 import React from "react";
-import "../stylesheets/NavBar/navbar.css";
-import logo from "../img/GesherNavLogo.svg";
-import NavBarMenue from "./NavBarMenue";
+import "./NavBar.css";
+import logo from "../../img/GesherNavLogo.svg";
+import NavBarMenue from "../NavBarMenue/NavBarMenue";
 
 const NavBar = () => (
   <header className="navbar">
