@@ -1,0 +1,46 @@
+.side-drawer {
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    max-width: 400px;
+    z-index: 200;
+}
+
+.side-drawer-title {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #003153;
+}
+
+.side-drawer-title h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #003153;
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.side-drawer li {
+    margin: 1rem 0;
+}
+
+.side-drawer a {
+    font-size: 1.5rem;
+    color: #003153;
+    text-decoration: none;
+}
+
+.side-drawer a:hover, .side-drawer a:active {
+    color: orange;
+}
