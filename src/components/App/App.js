@@ -23,18 +23,16 @@ export default class App extends Component {
   };
 
   render() {
-    let sideDrawer;
     let backDrop;
 
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
       backDrop = <BackDrop backDropClickHandler={this.backDropClickHandler} />;
     }
 
     return (
       <div className="App">
         <NavBar drawerClickHandler={this.drawerToggleClickHAndler} />
-        {sideDrawer}
+        <SideDrawer show={this.state.sideDrawerOpen} />
         {backDrop}
       </div>
     );

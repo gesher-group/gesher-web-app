@@ -10,8 +10,10 @@ const navItems = () =>
   ));
 
 const SideDrawer = props => {
+  const drawerClasses = props.show ? "side-drawer open" : "side-drawer";
+
   return (
-    <div className="side-drawer">
+    <div className={drawerClasses}>
       <nav>
         <div className="side-drawer-title">
           <h1>Gesher Group</h1>
