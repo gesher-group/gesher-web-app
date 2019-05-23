@@ -1,8 +1,10 @@
-.heroe-image-small img {
-    height: 5rem;
+.heroe-image-small {
     width: 100%;
-    /* background-image: url(/src/img/header-image.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.heroe-image-small img {
+    width: 100%;
 }

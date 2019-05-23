@@ -34,8 +34,8 @@ export default class App extends Component {
       <div className="App">
         <NavBar drawerClickHandler={this.drawerToggleClickHAndler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
-        {backDrop}
         <HeroeImageSmall />
+        {backDrop}
       </div>
     );
   }
