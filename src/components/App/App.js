@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "../NavBar/NavBar.js";
 import SideDrawer from "../SideDrawer/SideDrawer.js";
 import BackDrop from "../Backdrop/Backdrop.js";
+import Footer from "../Footer/Footer.js";
 import "./App.css";
 
 export default class App extends Component {
@@ -33,6 +34,7 @@ export default class App extends Component {
       <div className="App">
         <NavBar drawerClickHandler={this.drawerToggleClickHAndler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
+        <Footer />
         {backDrop}
       </div>
     );
