@@ -13,8 +13,8 @@
       "path": "teams"
     },
     {
-      "routeName": "Labs",
-      "path": "labs"
+      "routeName": "Partner",
+      "path": "partner"
     },
     {
       "routeName": "Join",
