@@ -2,12 +2,12 @@ import React from "react";
 import "./HomePage.css";
 import Menu from "../Menu/Menu";
 
-const App = () => {
+const HomePage = () => {
   return (
-    <div className="App">
+    <div className="home-page">
       <Menu />
     </div>
   );
 };
 
-export default App;
+export default HomePage;
