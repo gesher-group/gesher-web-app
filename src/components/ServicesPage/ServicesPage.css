@@ -1,0 +1,38 @@
+.services-page {}
+
+.page-content-header {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.page-content-header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.services-section {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gesher-service {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 3rem;
+    background-color: gray
+}
+
+@media (max-width: 769px) {
+    .services-section {
+        flex-direction: column;
+    }
+
+    .gesher-service {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
