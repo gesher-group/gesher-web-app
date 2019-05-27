@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "../NavBar/NavBar.js";
-import RedButton from "../RedButton/RedButton.js";
 import SideDrawer from "../SideDrawer/SideDrawer.js";
 import BackDrop from "../Backdrop/Backdrop.js";
 import Footer from "../Footer/Footer.js";
