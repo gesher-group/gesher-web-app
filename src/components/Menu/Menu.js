@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import NavBar from "../NavBar/NavBar.js";
-import RedButton from "../RedButton/RedButton.js";
 import SideDrawer from "../SideDrawer/SideDrawer.js";
 import BackDrop from "../Backdrop/Backdrop.js";
 import Footer from "../Footer/Footer.js";
-import "./App.css";
 
-export default class App extends Component {
+export default class Menu extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -32,7 +30,7 @@ export default class App extends Component {
     }
 
     return (
-      <div className="App">
+      <div className="Menu">
         <NavBar drawerClickHandler={this.drawerToggleClickHAndler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         <Footer />
