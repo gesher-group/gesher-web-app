@@ -6,5 +6,15 @@
 }
 
 .heroe-image-small img {
+    object-fit: cover;
+    object-position: top;
     width: 100%;
+}
+
+.heroe-image-small h1 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
 }
