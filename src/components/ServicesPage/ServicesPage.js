@@ -1,11 +1,12 @@
 import React from "react";
 import Menu from "../Menu/Menu";
-
+import RedButton from "../RedButton/RedButton.js"
 import "./ServicesPage.css";
 
 const ServicesPage = () => {
   return (
     <div className="Services">
+      <Menu />
       <h1> Our Services </h1>
       <div className="services-box">
         <div className="service-flex-item">
